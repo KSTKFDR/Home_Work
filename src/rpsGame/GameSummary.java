@@ -6,6 +6,7 @@ package rpsGame;
  * @params HUMAN - человек
  * @params COMPUTER - компьютер
  * @params TIE - ничья
+ *
  */
 public enum GameSummary {
     HUMAN("Игрок"),

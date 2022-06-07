@@ -6,6 +6,7 @@ import static org.junit.Assert.assertEquals;
 public class RpsTest {
     /**
      * Юнит тест отвечающий за тестирование игры.
+     *
      */
 
     @Test

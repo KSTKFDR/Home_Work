@@ -5,6 +5,7 @@ import rpsGame.*;
  *
  * @params userDrop - передаем то, что выкинул Пользователь
  * computerDrop - передаем то, что выкинул Комп
+ *
  */
 
 public class GetWinner {

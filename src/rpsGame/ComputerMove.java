@@ -2,6 +2,7 @@ package rpsGame;
 
 /**
  * Класс отвечающий за генерацию значения (Камень, ножницы или бумага) игрока Компьютер.
+ *
  */
 public class ComputerMove {
     public static Type getComputerRandom() {

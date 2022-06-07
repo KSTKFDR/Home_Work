@@ -7,6 +7,7 @@ package rpsGame;
  * @params PAPER - бумага
  * @params SCISSORS- ножницы
  * @params UNKNOWN - неизвестное значение (актуально для пользовательского ввода)
+ *
  */
 
 public enum Type {

@@ -5,6 +5,7 @@ import java.util.Scanner;
  * Майн класс для игры камень ножницы бумага
  *
  * @params userChoice - выбор камня, ножниц или бумаги. Пользовательский ввод
+ *
  */
 
 public class MainRPS {
