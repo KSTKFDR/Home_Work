@@ -7,7 +7,7 @@ package rpsGame;
  * @params COMPUTER - компьютер
  * @params TIE - ничья
  */
-public enum gameSummary {
+public enum GameSummary {
     HUMAN("Игрок"),
     COMPUTER("Компьютер"),
     TIE("Ничья");
@@ -15,7 +15,7 @@ public enum gameSummary {
 
     public String name;
 
-    gameSummary(String name) {
+    GameSummary(String name) {
         this.name = name;
     }
 

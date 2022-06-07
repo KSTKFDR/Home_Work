@@ -9,7 +9,7 @@ package rpsGame;
  * @params UNKNOWN - неизвестное значение (актуально для пользовательского ввода)
  */
 
-public enum type {
+public enum Type {
     ROCK("Камень"),
     PAPER("Бумага"),
     SCISSORS("Ножницы"),
@@ -17,7 +17,7 @@ public enum type {
 
     public String name;
 
-    type(String name) {
+    Type(String name) {
         this.name = name;
     }
 

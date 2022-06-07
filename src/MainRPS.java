@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @params userChoice - выбор камня, ножниц или бумаги. Пользовательский ввод
  */
 
-public class mainRPS {
+public class MainRPS {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -15,15 +15,15 @@ public class mainRPS {
         System.out.println("Ход игрока! Для игры введите: Камень, ножницы или бумага");
         String userChoice = scanner.nextLine();
 
-        type userDrop = userMove.getUserValue(userChoice);
+        Type userDrop = UserMove.getUserValue(userChoice);
         System.out.println("Человек выкидывает " + userDrop);
 
         System.out.println("Ход Компьютера");
-        type computerDrop = computerMove.getComputerRandom();
+        Type computerDrop = ComputerMove.getComputerRandom();
         System.out.println("Компьютер выкидывает " + computerDrop );
 
         System.out.println("Вычисление победителя");
-        getWinner gameProcess = new getWinner();
+        GetWinner gameProcess = new GetWinner();
         System.out.println("Победил = " + gameProcess.getWinner(userDrop,computerDrop));
     }
 }

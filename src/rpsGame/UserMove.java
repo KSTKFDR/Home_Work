@@ -5,20 +5,20 @@ package rpsGame;
  * @params userChoice - пользовательский ввод из класса mainRPS
  */
 
-public class userMove {
+public class UserMove {
 
- public static type getUserValue(String userChoice) {
+ public static Type getUserValue(String userChoice) {
      if (userChoice.equalsIgnoreCase("Камень")) {
-          return type.ROCK;
+          return Type.ROCK;
 
        } else if (userChoice.equalsIgnoreCase("Бумага")) {
-        return type.PAPER;
+        return Type.PAPER;
 
       } else if (userChoice.equalsIgnoreCase("Ножницы")) {
-         return type.SCISSORS;
+         return Type.SCISSORS;
 
       } else System.out.println("Ну введи ты что нибудь из: Камень, Ножницы, Бумага, а то поиграть не выйдет");
-       return type.UNKNOWN;
+       return Type.UNKNOWN;
   }
 }
 
